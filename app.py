@@ -75,4 +75,4 @@ if submitted:
     prediction = best_model.predict(x_input)[0]
 
     st.subheader("🔮 Predicted Insurance Charges")
-    st.success(f"**${prediction:,.2f}**")
+    st.success(f"**₹{prediction:,.2f}**")
